@@ -22,7 +22,7 @@ import { JobapplicationService } from './services/jobapplication.service'
 import { RecruiterService } from './services/recruiter.service'
 import { SkillService } from './services/skill.service'
 import { SkillexperienceService } from './services/skillexperience.service';
-import { BookmarkedFreelancerModule } from './module/bookmarked-freelancer/bookmarked-freelancer.module';
+
 import { AdminModule } from './module/admin/admin.module';
 import { FreelancerModule } from './module/freelancer/freelancer.module';
 import { RecruiterModule } from './module/recruiter/recruiter.module'
@@ -40,7 +40,7 @@ import { RecruiterModule } from './module/recruiter/recruiter.module'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BookmarkedFreelancerModule,
+    
     AdminModule,
     FreelancerModule,
     RecruiterModule,

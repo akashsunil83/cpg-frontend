@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BookmarkedfreelancerService {
-  private baseUrl = "http://localhost:8001/bmark/freelancer";
+  private baseUrl = "http://localhost:8000/bmark/freelancer";
 
   constructor(private http: HttpClient) { }
 

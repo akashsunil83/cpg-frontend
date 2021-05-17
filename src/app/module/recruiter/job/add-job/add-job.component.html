@@ -1,0 +1,23 @@
+<div class="col-md-6">
+    <h2 class="text-center">Add Job</h2>
+  <form (ngSubmit)="addJob()">
+
+  <div>
+    <input type="text" placeholder="recruiter-id" id="recruiter-id" name="id" [(ngModel)]="job.recruiter-id"  class="form-control" >
+  </div>
+ 
+  <div>
+    <input type="text" placeholder="freelancer-id" id="freelancer-id" name="id" [(ngModel)]="job.freelancer-id"   class="form-control" >
+  </div>
+  
+  <div>
+    <input type="text" placeholder="skill-id" id="skill-id" name="id" [(ngModel)]="job.skill-id"   class="form-control" >
+  </div>
+
+  <div>
+  <input type="submit" value="Add Job" class="btn btn-success">
+</div>
+</form>
+   
+</div>
+
